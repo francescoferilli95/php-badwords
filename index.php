@@ -22,8 +22,10 @@ $bad = $_GET['badword'];
 $replaced = str_replace($bad, '<mark>***</mark>', $text);
 ?>
 
-<header class="container">
-    <h1>Welcome <mark>PHP</mark></h1>
+<header>
+    <div  class="container">
+        <h1>Welcome <mark>PHP</mark></h1>
+    </div>
 </header>
 
 <main>
