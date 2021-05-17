@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #ccc;
+}
+
+.title {
+    padding: 50px;
+}
+
+mark {
+    color: red;
+}
+
+.container {
+    padding: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.length {
+    margin-top: 20px;
+}
+
+.censor {
+    margin-bottom: 20px;
+}
