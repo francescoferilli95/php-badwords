@@ -21,7 +21,7 @@ $replaced = str_replace($bad, '<mark>***</mark>', $text);
 ?>
 
 <header class="container">
-    <h1 class="title">Welcome <mark>PHP</mark></h1>
+    <h1>Welcome <mark>PHP</mark></h1>
 </header>
 
 <main>
