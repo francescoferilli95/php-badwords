@@ -17,7 +17,7 @@ $text = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum cupid
 <?php
 // BADWORD
 $bad = $_GET['badword'];
-$replaced = str_replace($bad, '***', $text);
+$replaced = str_replace($bad, '<mark>***</mark>', $text);
 ?>
 
 <header class="container">
